@@ -7,19 +7,19 @@
     tools:context=".MainActivity">
 
     <FrameLayout
-        android:layout_above="@+id/idBottomNavView"
         android:id="@+id/idFrameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_above="@+id/idBottomNavView" />
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/idBottomNavView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/menu_navview"
-        app:labelVisibilityMode="unlabeled"/>
+        android:layout_gravity="bottom"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu_navview" />
 
 </RelativeLayout>
