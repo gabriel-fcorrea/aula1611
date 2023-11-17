@@ -9,6 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/idFABSaved"
-        android:src="@drawable/baseline_save"/>
+        android:src="@drawable/baseline_save"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"/>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
